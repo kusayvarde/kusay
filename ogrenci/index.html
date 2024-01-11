@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../for-og-ho.css">
+    <title>Ogrenci</title>
+
+</head>
+<body>
+    <h1 >Öğrenci Tablosu</h1>
+    <div >
+        <form action="ogrenci_liste.php" method="get">
+            <input 
+            style="font-size: medium; border-radius: 4px; background-color: azure; margin-right: -7px;" 
+            type="search" name="ara" autocomplete="off" placeholder="ARA . . ." maxlength="25">
+            <input class="submit" style="border-radius: 0px 4px 4px 0px;" type="submit"  value="Ara">
+        </form>
+        <a href="../index.html" ><button style="margin-left: 950px;">Ana sayfa</button></a>
+         <br> 
+        <div>
+            <p>Öğrenci eklemek için: <a href="ogrenci_ekle.php" ><button>Ekle</button></a>  </p>
+            <p>Öğrenci silmek için: <a href="ogrenci_sil.php" ><button>Sil</button></a>  </p>
+            <p>Öğrenci bilgileri güncellemk için: <a href="ogrenci_gun.php" ><button>Güncelle</button></a>  </p>
+        </div>
+    </div>
+
+</body>
+    
+</html>   
