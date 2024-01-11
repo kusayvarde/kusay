@@ -1,0 +1,22 @@
+body {
+    background-image: url(back.jpg);
+}
+P {
+    color: black;
+    font-size: 23px;
+}  
+h1 {
+    background-color: #679dda;
+    margin: -8px -10px -7px -10px;
+    text-align: center;
+}
+form {
+    display: inline-block;
+    margin-top: 25px;
+}
+button , .submit {
+    border-radius: 4px;
+    color: snow;
+    font-size: medium;
+    background-color: steelblue;
+}

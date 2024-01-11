@@ -1,0 +1,36 @@
+body {
+    background-image: url(arka.jpg); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+span {
+    background-color: dodgerblue;
+    display: block;
+    color: navy;
+    border-radius: 10px;
+    text-align: center;
+    font-family: cursive;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-size: 100px;
+    opacity: 75%;
+}
+h2 {
+    display: inline-block;
+    color : white;
+    margin-bottom: 0px;
+    font-size: 24px;
+
+}
+
+main {
+    text-align: center;
+}
+button {
+    border-radius: 4px;
+    color: palegreen;
+    font-size: larger;
+    margin: 7px;
+    background-color: royalblue;
+}
