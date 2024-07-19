@@ -1,2 +1,2 @@
-# First project in university
+# First project in the university
 The project is about implement CRUD operations
